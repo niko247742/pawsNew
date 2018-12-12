@@ -1,0 +1,23 @@
+
+header {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+                        'burger logo social'
+                        '.      number    .'
+                        '.      address   .';
+    background-color: $dark-blue;
+    color: white;
+    font-family: $font-stack;
+    nav {
+        ul {
+            display: flex;
+            list-style: none;
+            li {
+                flex-direction: row;
+                text-decoration: none;
+            }
+        }
+    }
+}

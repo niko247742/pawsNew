@@ -1,0 +1,16 @@
+//Base Styles
+@import 'base/_reset';
+@import 'base/_variables';
+@import 'base/_grid.scss';
+
+//Components
+@import 'components/_header';
+@import 'components/_buttons';
+@import 'components/_carousel';
+
+//Page Styles
+@import 'pages/_blog';
+@import 'pages/_food';
+@import 'pages/_grooming';
+@import 'pages/_home';
+
