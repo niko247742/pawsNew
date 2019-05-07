@@ -1,58 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family:'Futura-CondensedMedium';
-    box-sizing: border-box;
-    text-decoration: none;
-    color: white;
-}
+@import "reset";
+@import "variables";
+@import "typography";
+@import "global-styles";
+@import "header";
+@import "footer";
+@import "pawprint-row";
+@import "brand-tiles";
+@import "article";
+@import "carousel";
+@import "blue-banner";
+@import "grid";
+@import "slideanim";
+@import "grooming";
+@import "food";
 
 
-
-.brands-grid-container {
-    font-size: 1.8rem;
-    letter-spacing: 0.4rem;
-    display: grid;
-    //width: 100%;
-    margin: 2% 5%;
-    grid-row-gap: 2%;
-    grid-column-gap: 2%;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    text-align: center;
-    //align-items: center;
-
-}
-
-.brands-grid-tile {
-    //justify-content: center;
-    height: 100px;
-    box-shadow: 1px 1px 10px rgba(0,0,0,0.7);
-    padding: 5%;
-    background: #1e5799; /* Old browsers */
-        background: -moz-linear-gradient(top, #1e5799 0%, #021f61 1%, #00a7e1 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top, #1e5799 0%,#021f61 1%,#00a7e1 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom, #1e5799 0%,#021f61 1%,#00a7e1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#00a7e1',GradientType=0 ); /* IE6-9 */
-    transition: all ease-in-out;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.brands-grid-tile:hover {
-    background: #021F61;
-    cursor: pointer;
-}
-.brands-grid-tile:focus {
-    background: #021F61;
-    cursor: pointer;
-}
-
-a:hover {
-    color:black;
-    cursor: pointer;
-}
-a:focus {
-    color: black;
-    cursor: pointer;
-}
